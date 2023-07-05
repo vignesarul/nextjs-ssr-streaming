@@ -31,7 +31,7 @@ export default function Home() {
 
               <div>
                   <ul role="list" className="divide-y divide-gray-100 text-sm space-y-2">
-                      <li className="pt-2"> The demo app demonstrates Next.js's SSR with streaming implementation.</li>
+                      <li className="pt-2"> The demo app demonstrates Next.js&apos;s SSR with streaming implementation.</li>
                       <li className="pt-2"> It is beneficial for SEO in ecommerce websites. </li>
                       <li className="pt-2"> Critical information like product page details and images are rendered in the initial HTML. </li>
                       <li className="pt-2"> Non-trivial information is loaded gradually as it is fetched by the backend and streamed to the frontend. </li>
