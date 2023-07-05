@@ -4,7 +4,7 @@ import Status from "@/app/components/status";
 
 export default function Home() {
   return (
-      <div className="p-5 h-screen">
+      <div className="p-5">
           <header className="my-5 uppercase font-bold text-xl">
               <div>Api status</div>
           </header>
@@ -29,7 +29,7 @@ export default function Home() {
               }
 
 
-              <div>
+              <div className="pt-6">
                   <ul role="list" className="divide-y divide-gray-100 text-sm space-y-2">
                       <li className="pt-2"> The demo app demonstrates Next.js&apos;s SSR with streaming implementation.</li>
                       <li className="pt-2"> It is beneficial for SEO in ecommerce websites. </li>
@@ -39,7 +39,7 @@ export default function Home() {
                   </ul>
               </div>
           </main>
-          <footer className="text-center w-screen text-gray-500 text-sm pb-5">
+          <footer className="text-center w-screen text-gray-500 text-sm pt-14 pb-4">
               Next.js sample project by <a href="https://www.toptal.com/resume/vignes-aruljothi" className="text-gray-500 decoration-0 font-bold">Vignes Aruljothi</a>
           </footer>
       </div>

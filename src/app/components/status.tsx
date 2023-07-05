@@ -3,7 +3,7 @@ export default async function Status() {
     const values: Array<string> = ['Good', 'Error'];
     const index: number = Math.floor(Math.random() * 2);
     return (
-        <div className="flex space-x-1 items-center text-sm">
+        <div className="flex space-x-1 items-center text-sm text-red-700 text-green-700">
             <div className={`text-${index === 0 ? 'green-700': 'red-700'}`}>{values[index]}</div>
         </div>
 
