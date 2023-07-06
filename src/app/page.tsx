@@ -5,8 +5,9 @@ import Status from "@/app/components/status";
 export default function Home() {
   return (
       <div className="p-5">
-          <header className="my-5 uppercase font-bold text-xl">
+          <header className="my-5 uppercase font-bold text-xl flex justify-between items-center container">
               <div>Api status</div>
+              <a href="https://github.com/vignesarul/nextjs-ssr-streaming" className="text-sm text-right text-blue-600 underline">View source on GITHUB</a>
           </header>
           <main className="container space-y-4">
               {
