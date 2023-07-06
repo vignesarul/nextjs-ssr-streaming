@@ -1,4 +1,5 @@
 export default async function Status() {
+    await fetch('https://jsonplaceholder.typicode.com/todos/1', {cache: "no-store"});
     await new Promise(resolve => setTimeout(resolve, Math.floor(Math.random() * 4) * 1000));
     const values: Array<string> = ['Good', 'Error'];
     const index: number = Math.floor(Math.random() * 2);
